@@ -68,3 +68,18 @@ input[type=number] {
     color:#6b6b6b;
     font-weight: 400;
 }
+
+/* ====================================================================
+                         Extra section style
+=========================================================================*/
+
+.latest-bike-tite{
+    color:#e20202;
+    text-shadow: 1px 1px #131313;
+     
+}
+
+/* ------Slider section ----- */
+.slider-bg{
+background: #264653b4;
+}
