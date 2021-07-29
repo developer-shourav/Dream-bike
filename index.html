@@ -21,10 +21,43 @@
      
 </head>
 <body>
-    <!--++++++++++++++++++++++++ Top Banner section ++++++++++++++++++++++++++++++ -->
+    <!--++++++++++++++++++++++++ Nav-bar Top Banner section ++++++++++++++++++++++++++++++ -->
     <header class="topSection-bg">
+
+
+    <!-- ---------Nav bar--------- -->
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-3   ">
+  <div class="container-fluid">
+    <a class="navbar-brand invisible" href="#">Navbar</a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ms-auto pe-5 me-4 pt-3">
+        <li class="nav-item px-2" >
+          <a class="nav-link text-white " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#">Shop</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#">News</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+        <li class="nav-item px-lg-5 px-2 ms-lg-5 py-lg-0 py-4">
+         <button class="honda-login-btn">Login</button>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>  
+
           <section>
-              <div class="top-section-wraper row align-items-center justify-content-center  py-5  ">
+              <div class="top-section-wraper row align-items-center justify-content-center  pb-5  ">
 
                 <div class="top-heading  col-lg-5 col-sm-12 col-md-6   ">
                   <div class="intro w-fluid px-3 ">
@@ -32,7 +65,7 @@
                   <h1 class="fw-bold text-white pb-3 ">Honda CBR 300R</h1>
                   <p class="fw-light common-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                   
-                   <button type="button" class="honda-purche-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Purches</button>
+                   <button type="button" class="honda-common-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Purches</button>
                    <!-- Buying Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -91,14 +124,13 @@
           </section>
 
     </header>
-
-
 <main>
 <!--++++++++++++++++++++++ Fetured Bikes section ++++++++++++++++++++++++++++++ -->  
 <section class="container mt-5 pt-4">
     <h1 class="text-center fw-bolder  ">Fetured Bikes 2021</h1>
     <p class="text-center best-collection-color  ">Best bike collection</p>
-     <div class="row my-lg-5 p-lg-y-5">
+     <div><hr class=" mx-auto  text-center horizontal-line " width="80px"></div>
+     <div class="row my-lg-5 my-5 py-5 p-lg-y-5">
           <div class="col-12 col-lg-4  col-md-4 d-flex justify-content-center pb-5 mb-5">
              <img class="w-75 gray-img" src="img/images/feature-bike.jpg" alt="">
          </div>
@@ -113,6 +145,48 @@
 
 </section>
 
+
+<!--++++++++++++++++++++++ latest News ++++++++++++++++++++++++++++++ -->  
+
+<section class="container">
+   <h1 class="text-center fw-bolder  ">Latest News
+</h1>
+ <div class="cards my-lg-5 my-4 py-lg-5 py-4">
+   <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-12 col-md-6 col-lg-4 ">
+    <div class="card h-100 p-3  rounded-3 shadow-lg ">
+      <img src="img/images/bike-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title fw-bold">Ducati XDIAVEL S-73</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consecteturadipiscing elit. Lacus, fermentum ametfaucibus sed id nisi lectus at.</p>
+        <button class="read-me-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 ">
+    <div class="card h-100 p-3  rounded-3 shadow-lg ">
+      <img src="img/images/bike-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title fw-bold">Motorcycles & Scooters</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consecteturadipiscing elit. Lacus, fermentum ametfaucibus sed id nisi lectus at.</p>
+        <button class="read-me-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 ">
+    <div class="card h-100 p-3  rounded-3 shadow-lg ">
+      <img src="img/images/bike-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title fw-bold">2021 Honda CBR500R</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consecteturadipiscing elit. Lacus, fermentum ametfaucibus sed id nisi lectus at.</p>
+        <button class="read-me-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+ </div>
+</section>
 
 <!--++++++++++++++++++++++  Client's Review  section ++++++++++++++++++++++++++++++ -->  
 
@@ -246,7 +320,7 @@
 
 <!--+++++++++++++++++++++ Most popular bike ++++++++++++++++++++++++++++++ --> 
 
-<section class="container my-lg-5 py-lg-3">
+<section class="container my-lg-5 my-5 py-lg-3 py-3">
 <h1 class="text-center fw-bolder  my-lg-5 pb-lg-4 my-3  ">Our Most <span class="latest-bike-tite">Popular Bikes</span> </h1>
 <div class="slider">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -292,23 +366,37 @@
   
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </main>
+<!-- ---------------- Footer--------------------- -->
+<footer class="footer-bg  text-white">
+         <section class="container  ">
+         
+            <div class="row py-5 ">
+              <div class="col-lg-8 col-12 ">
+              <p class=" d-inline-block me-5" >Download Now </p> <span>License</span>
+
+              <ul class="d-flex list-unstyled ">
+                <li class="px-lg-3 px-1 ps-0 ps-lg-0 footer-list-color">About</li>
+                <li class="px-lg-3 px-1 footer-list-color">Features </li>
+                <li class="px-lg-3 px-1 footer-list-color">Pricing<br> </li>
+                <li class="px-lg-3 px-1 footer-list-color">Careers</li>
+                <li class="px-lg-3 px-1 footer-list-color">Privacy Policy</li>
+              </ul>
+              <p> &copy; 2021 Shourav Raj B. All rights reserved </p>
+
+            </div>
+            <div class="col-lg-4 col-12 ">
+              <div class="ms-lg-5 ps-lg-5">
+                 <h4 class="footer-list-color">Get the app</h4>
+              <img class="w-50 " src="img/get.png" alt="">
+              </div>
+             
+
+            </div>
+
+            </div>
+             </section>
+</footer>
  <!-- ------Bootstrap Js------- -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

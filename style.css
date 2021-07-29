@@ -36,19 +36,35 @@ input[type=number] {
     color: #E0E0E0;
 
 }
-.honda-purche-btn{
+.honda-common-btn{
     color: #fff;
     background: #E76F51;
     padding: 10px 46px;
     border: none;
     border-radius: 5px;
 }
+
 .diff-color{
      color: #fc5c34;
      letter-spacing: 1px;
 }
 .top-section-wraper{
     margin: 0;
+}
+
+/* ====================================================================
+                        Nav style
+=========================================================================*/
+.nav-text-color{
+    color:#fff;
+}
+
+.honda-login-btn {
+    color: #fff;
+    background: #E76F51;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 5px;
 }
 
 /* ====================================================================
@@ -61,6 +77,31 @@ input[type=number] {
 .gray-img{
     filter: grayscale(100%);
 }
+.horizontal-line{
+    border-top:2px solid #fc1100;
+    margin-top: -10px;
+    
+}
+/* ====================================================================
+                         latest section style
+=========================================================================*/
+.read-me-btn{
+    color: #E76F51;
+    background: #fff;
+    padding: 15px 35px;
+    border: 2px solid #fc5c34;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+
+.read-me-btn:hover{
+    color: #fff;
+    background: #E76F51;
+    
+}
+
 /* ====================================================================
                          clients review section style
 =========================================================================*/
@@ -81,5 +122,19 @@ input[type=number] {
 
 /* ------Slider section ----- */
 .slider-bg{
-background: #264653b4;
+background: #264653a6;
+
 }
+.footer-list-color{
+    color: #cacaca;
+}
+
+/* ---------------Footer style-------------------- */
+
+.footer-bg{
+    background-color:#0B0D17;
+    font-size: 14px;
+}
+
+
+
