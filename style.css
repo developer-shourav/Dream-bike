@@ -1,0 +1,67 @@
+/* ====================================================================
+                         Common Styles
+=========================================================================*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+/* ------removeing arrow from number input type------ */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.topSection-bg{
+    background: #264653;
+    width:100%;
+
+}
+.common-text {
+    font-weight: 100;
+    color: #E0E0E0;
+
+}
+.honda-purche-btn{
+    color: #fff;
+    background: #E76F51;
+    padding: 10px 46px;
+    border: none;
+    border-radius: 5px;
+}
+.diff-color{
+     color: #fc5c34;
+     letter-spacing: 1px;
+}
+.top-section-wraper{
+    margin: 0;
+}
+
+/* ====================================================================
+                         Fetured Bikes section style
+=========================================================================*/
+.best-collection-color{
+     color: #fc5c34;
+     font-weight: 600;
+}
+.gray-img{
+    filter: grayscale(100%);
+}
+/* ====================================================================
+                         clients review section style
+=========================================================================*/
+.card-text-style{
+    color:#6b6b6b;
+    font-weight: 400;
+}
